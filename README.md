@@ -1,0 +1,2 @@
+# RecursionError in Factorial Function
+This repository demonstrates a common error in recursive functions: the RecursionError. The `factorial` function calculates the factorial of a number using recursion.  It works correctly for non-negative integers but throws a `RecursionError` when a negative number is provided as input because the recursive calls never reach a base case (n == 0).
